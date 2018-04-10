@@ -11,6 +11,27 @@ body{
 }
 
 
+ul{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+
+}
+
 .selected{
 	background-color: white;
 	color: black;
