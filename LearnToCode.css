@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+
+ul{
+	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+	background-color: orange;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+
+li a{
+	text-decoration: none;	
+	display: block;
+	color: white;
+	padding: 10px;
+	text-align: center;
+
+}
+
+
+.navbar a:hover{
+	background-color: black;
+	color: white;
+}
+
+.mainHeader{
+	background-image: url('./CodingSchool.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;	
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.mainHeader a{
+	border: 3px solid white;
+	border-radius: 6px;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.mainHeader a:hover{
+	background-color: black;
+	color: white;
+}

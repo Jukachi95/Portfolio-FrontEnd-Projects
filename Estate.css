@@ -1,0 +1,25 @@
+.whole{
+	background-color: cadetblue;
+	margin-top:-20px;
+}
+
+#branding{
+	
+	margin-left: 2.55%;
+	letter-spacing: 1.2px;
+	font-family: Raleway;
+	font-weight: bold;
+}
+
+/*
+.navbar{
+	background-color: cadetblue;
+	
+*/
+
+#showcase{
+	background:url('https://images.unsplash.com/photo-1444676632488-26a136c45b9b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=08ec03ab29ad9ec18bdf0e292af2cd7e&auto=format&fit=crop&w=635&q=80');
+	min-height: 400px;
+	background-repeat: no-repeat;
+}
+

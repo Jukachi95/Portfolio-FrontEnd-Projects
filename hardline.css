@@ -1,0 +1,18 @@
+.navbar{
+	background-color: #808080;
+	font-weight: 700;
+	font-family: Aldrich;
+}
+
+.pgOne{
+	background: url('http://assets.vg247.com/current//2015/03/battlefield_hardline_cops.jpg');
+ height:700px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top center;
+ margin-top: -20px;
+}
+
+/* Change height and width of image when possible */
+
+/* https://media.contentapi.ea.com/content/bf/en-gb/games/battlefield-hardline/_global_/_jcr_content/ccm/componentwrapper_0/components/opengraph/ogImage.img.jpg */

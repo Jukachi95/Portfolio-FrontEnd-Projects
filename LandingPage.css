@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+body{
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 15px;
+	color: #DCDCDC;
+	line-height: 1.6;
+}
+
+
+ul{
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	list-style-type: none;
+}
+
+li{
+	float: left
+}
+
+li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+li a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+#showcase{
+	background-image:url('./ps4Pad.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+h1{
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+#showcase .button{
+	font-size: 18px;
+	text-decoration: none;
+	border: white 2px solid;
+	padding: 10px 20px;
+	border-radius: 8px;
+	margin-top: 10px;
+	color: #DCDCDC;
+}
+
+#showcase .button:hover{
+	background-color: #DCDCDC;
+	color: black;
+}
+
+#section-a{
+	padding: 20px;
+	background-color: #DCDCDC;
+	color: black;
+	text-align: center;
+}
+
+#section-b{
+	padding: 20px;
+	
+}

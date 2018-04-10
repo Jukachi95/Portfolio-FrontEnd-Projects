@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+ul{
+	margin: 0;
+	padding:0;
+	background-color: orange;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+
+#mainEvent{
+	height: 100vh;
+	background-image: url('./NiceLandscape.jpeg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}

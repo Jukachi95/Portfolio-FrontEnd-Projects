@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 1.7;
+	color:#DCDCDC;
+}
+
+
+.selected{
+	background-color: white;
+	color: black;
+}
+
+#showcase{
+	background-image: url('./Relax.jpeg');
+	height:	100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#showcase .button{
+	border: 3px solid #DCDCDC;
+	padding: 10px 20px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #DCDCDC;
+	margin-top: 10px;
+}
+
+#showcase .button:hover{
+	background-color: #DCDCDC;
+	color: black;
+}
+
+#section-a{
+	background-color: #DCDCDC;
+	color: black;
+	text-align: center;
+
+}

@@ -1,0 +1,29 @@
+/*Global*/
+body{
+font-family: Raleway ;
+}
+
+/*Header*/
+
+header{
+	background: #4682B4;
+	margin:0;
+	border-bottom:black 3px solid;
+
+}
+
+header a{
+	text-decoration: none;
+}
+
+header li{
+	float: left;
+}
+
+
+#showcase{
+	background:url('./100daysofcode.jpg') no-repeat;
+	min-height: 400px;
+	background-position: bottom center;
+
+}
