@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
+}
+
+body{
+	font-family: Arial;
+}
+
+ul{
+	margin: 0;
+	background-color: black;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	padding: 20px;
+	text-align: center;
+	color: white;
+	display: block;
+	text-decoration: none;
+
+}
+
+li a:hover{
+	background-color: white;
+	color: black;
+}
+
+li.opposite{
+	float: right;
+}
+
+/*Showcase*/
+
+#showcase{
+	background-image: url('./Roadview.jpeg');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+#showcase h1{
+	font-size: 50px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+#showcase a{
+	border: 3px solid black;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 7px;
+	color: white;
+	background-color: black;
+	font-size: 18px;
+}
+
+
+#showcase a:hover{
+	background-color: white;
+	color: black;
+}
