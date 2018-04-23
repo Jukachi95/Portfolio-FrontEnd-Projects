@@ -117,3 +117,57 @@ aside.sidebar{
 	width: 30%;
 	
 }
+
+/*Portfolio Page*/
+
+#portfolioPic1{
+	background-image: url('PortfolioPic.jpeg');
+	min-height:400px;
+	background-position: top center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#portfolioPic1 a{
+	border: 3px solid black;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 7px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+
+#portfolioPic1 a:hover{
+	background-color: gray;
+	color: black;
+}
+
+
+
+#portfolioPic2{
+	background-image: url('SunsetView.jpeg');
+	min-height: 400px;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#portfolioPic2 a{
+	border: 3px solid black;
+	padding: 10px 20px;
+	margin-top: 10px;
+	text-decoration: none;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+}
+
+#portfolioPic2 a:hover{
+	background-color: gray;
+	color: white;
+}
