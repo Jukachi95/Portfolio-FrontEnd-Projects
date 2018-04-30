@@ -199,3 +199,27 @@ background-color: gray;
 color: white;
 }
 
+
+#portfolioPic4{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url('NewYork2.jpg');
+	min-height: 400px;
+}
+
+#portfolioPic4 a{
+	border: 3px solid black;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+#portfolioPic4 a:hover{
+	background-color: gray;
+	color: black;
+}
