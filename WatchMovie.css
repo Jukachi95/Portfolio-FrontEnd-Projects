@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+font-family: 'Raleway';
+background: #eee;
+height: auto;
+margin: 0;
+}
+
+main{
+	
+}
+
+#navbar ul{
+	overflow: hidden;
+	background-color: #333;
+	padding: 0;
+	margin: 0;
+	border-bottom: 2px solid #fff;
+
+}
+
+#navbar li{
+	list-style-type: none;
+	float: left;
+}
+
+/*#nav-sign{
+	float: right;
+	display: inline-block;
+}
+*/
+li a{
+		text-decoration: none;
+		display: block;
+		padding: 0.9rem;
+		color: white;
+}
+
+li a:hover{
+		color: #333;
+		background-color: white;
+		}
+
+/*main{
+	
+}*/
+
+#showcase{
+	background: url('https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a1fe3e63c97f40568e673fae29af4aa&auto=format&fit=crop&w=750&q=80');
+	height: 55vh;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+
+}
+
+#showcase h1{
+	color: #fff;
+}
+
+#showcase h3{
+	color: #fff;
+}
+
+input[type=text]{
+	width: 55vw;
+	padding: 0.7rem 1rem;
+	color: black;
+}
+
+.btnSearch{
+	color: #000;
+	text-decoration: none;
+	border: 0.7rem solid #fff;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+img{
+	max-width: 25vw;
+	max-height: 60vh;
+/*	display: inline-block;*/
+}
+
+
+
+
+
+#filmsList1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+	margin: 15px;
+}
+
+/*#Thor{
+	display: flex;
+	background-image: url('');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 50vh;
+}*/
+
+.filmHeader{
+	/*background: #;
+	padding: 0.5rem 0.5rem;*/
+	text-align: center;
+	}
+
+#filmsList2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+	margin: 15px;
+}
+
+
+#filmsList3{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 15px;
+}
+
+.filmText{
+	text-align: center;
+	width: 20vw;
+}
+
+.filmFooter{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	padding: 0.3rem;
+	
+	
+}
+
+.filmFooter h3{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border-left: 1px dotted #fff;
+	border-right: 1px dotted #fff;
+	display: inline-block;
+}
+
+@media (max-width:500px) {
+		
+	/*.filmText{
+		width: 10vw;
+	}	
+*/
+
+	img{
+		width: 100%;
+		height: 100vh;
+	}
+}
+
+/*Buy DVD*/
+#BuyDVDInitial{
+	background: url('https://images.unsplash.com/photo-1528060624137-4220dde892b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=00237806e5301a742baca7340b100321&auto=format&fit=crop&w=750&q=80');
+	background-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.signUpForm{
+	border: 3px solid black ;
+	background-color: black;
+	margin: auto;
+	opacity: 0.6;
+	/*background-color: black;*/
+	
+	width: 55vw;
+	padding: 0.5rem 0.6rem;
+}
+
+#signUpHeader{
+	text-align: center;
+}
+
+#signUpBody{
+		text-align: center;
+}
+
+#signUpBody {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#signUpBody input[type=text]{
+	width: 50vw;
+	padding: 0.4rem 0.5rem;
+	color: black;
+}
+
+#signUpBody input[type=email]{
+	width: 50vw;
+	padding: 0.4rem 0.5rem;
+	color: black;
+}
+
+#signUpBody input[type=password]{
+	width: 50vw;
+	padding: 0.4rem 0.5rem;
+	color: black;
+}
+
+.formKey{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.formButton{
+	border: 2px solid black;
+	text-decoration: none;
+	color: white;
+	background: black;
+	padding: 0.4rem 1rem;
+	margin-top: -15px;
+	margin-bottom: 10px;
+	
+}
+
+.formKey a:hover{
+	background-color: white;
+	color: black;
+}
+/*
+#BuyDVDInitial footer{
+	padding: 0.1rem;
+}
+*/
+
