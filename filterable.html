@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Filterable App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+</head>
+<body>
+
+<div class="container">
+	<h1 class="center-align">Teams
+	</h1>
+	
+	<input type="text" id="filterInput" placeholder = "Search Names">
+
+
+	<ul class="collection with-header" id = "names">
+		<li class="collection-header">
+			<h5>A</h5>
+		</li>
+				<li collection = "collection-item"> 
+					<a href="#">Arsenal</a>
+				</li>
+				
+				<li collection = "collection-item"> 
+					<a href="#">Accrington Stanley</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">AFC Bournemouth</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">AFC Wimbledon</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">Aston Villa</a>
+				</li>
+
+
+			<ul class="collection with-header" id = "names">
+		<li class="collection-header">
+			<h5>B</h5>
+		</li>
+				<li collection = "collection-item"> 
+					<a href="#">Birmingham City</a>
+				</li>
+				
+				<li collection = "collection-item"> 
+					<a href="#">Bradford</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">Brentford</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">Bolton</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">Brighton</a>
+				</li>
+
+
+<ul class="collection with-header" id = "names">
+		<li class="collection-header">
+			<h5>A</h5>
+		</li>
+				<li collection = "collection-item"> 
+					<a href="#">Chelsea</a>
+				</li>
+				
+				<li collection = "collection-item"> 
+					<a href="#">Crystal Palace</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">Cardiff City</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">Charlton Athletic</a>
+				</li>
+
+				<li collection = "collection-item"> 
+					<a href="#">Crewe Alexandra</a>
+				</li>
+
+
+	</ul>
+
+
+
+</div>
+
+
+<script src="filterable.js">
+	let filterInput = document.getElementById('filterInput');
+	filterInput.addEventListener('keyup', filterNames);
+
+	function filterNames(){
+		let filterValue = document.getElementById('filterInput').value.toUpperCase();
+		console.log(filterValue);
+
+
+		let ul = document.getElementById('names');
+
+		let li = ul.querySelectorAll('li.collection-item');
+
+		for(let i = 0; i<li.length; i++){
+			let a = li[i].getElementsByTagName('a')[0];
+
+			if
+		}
+	}
+</script>	
+</body>
+</html>
