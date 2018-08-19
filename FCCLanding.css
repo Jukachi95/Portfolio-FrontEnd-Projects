@@ -98,6 +98,17 @@ label{
 }
 
 
+/* DJ Text*/
+
+.DJ-Text{
+  text-align: center;
+  background-color:#000;
+  color: white;
+  border: 3px dotted white;
+ /* border-right: 3px dotted white;*/
+  padding: 0.5;
+}
+
 /* Media Query */
 
 @media (width: 500px){
