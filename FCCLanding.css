@@ -104,9 +104,17 @@ label{
   text-align: center;
   background-color:#000;
   color: white;
-  border: 3px dotted white;
+  
  /* border-right: 3px dotted white;*/
   padding: 0.5;
+}
+
+.DJ-Text h3{
+  border-left:dotted 1px white;
+  border-right: dotted 1px white;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  display: inline-block;
 }
 
 /* Media Query */
